@@ -23,7 +23,8 @@
 
     <section id="sobre">
         <h2>Sobre mim</h2>
-        <img src="https://yt3.googleusercontent.com/NKZmxWQZCBz77LxI9X_QqiBD1dbZNr1DHA93r_Cz_b6wvS4sFmP-ydbqpOnjYIhR99cXV7sGcQ=s120-c-k-c0x00ffffff-no-rj" alt="Imagem de foto de perfil" title="mini ph">
+        <img src="https://yt3.googleusercontent.com/NKZmxWQZCBz77LxI9X_QqiBD1dbZNr1DHA93r_Cz_b6wvS4sFmP-ydbqpOnjYIhR99cXV7sGcQ=s120-c-k-c0x00ffffff-no-rj"
+            alt="Imagem de foto de perfil" title="mini ph">
 
         <article>
 
@@ -70,6 +71,41 @@
             <h2>Contato</h2>
 
             <p>Tem um projeto em mente? Entre em contato.</p>
+
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="email" required><br>
+
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="teleone" id="telefone" required> <br>
+
+                <br>
+
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="menasgem" id="mensagem" required></textarea>
+
+                <input type="checkbox" id="inscricao" name="inscição">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+
+            <br>
 
             <address>
                 Email: <a href="mailto:henricpedro@ymail.com">henricpedro@ymail.com</a> <br>
